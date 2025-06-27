@@ -1,42 +1,42 @@
 [
     {
-        "skill": "Git",
-        "src": "/icons/icongit.svg"
+        "skill": "Python",
+        "src": "/icons/python.svg"
     },
     {
-        "skill": "Javascript",
+        "skill": "JavaScript",
         "src": "/icons/iconjavscript.svg"
     },
     {
-        "skill": "Sass/Scss",
-        "src": "/icons/iconsass.svg"
+        "skill": "Power BI",
+        "src": "/icons/powerbi.svg"
     },
     {
-        "skill": "Nest.Js",
-        "src": "/icons/iconnest.svg"
-    },
-    {
-        "skill": "Storybook",
-        "src": "/icons/iconstorybook.svg"
-    },
-    {
-        "skill": "Socket.io",
-        "src": "/icons/iconsocket.svg"
-    },
-    {
-        "skill": "Nest.Js",
-        "src": "/icons/iconnest.svg"
+        "skill": "AWS",
+        "src": "/icons/aws.svg"
     },
     {
         "skill": "Git",
         "src": "/icons/icongit.svg"
     },
     {
-        "skill": "Storybook",
-        "src": "/icons/iconstorybook.svg"
+        "skill": "Java",
+        "src": "/icons/java.svg"
     },
     {
-        "skill": "Sass/Scss",
-        "src": "/icons/iconsass.svg"
+        "skill": "SQL",
+        "src": "/icons/sql.svg"
+    },
+    {
+        "skill": "HTML/CSS",
+        "src": "/icons/html.svg"
+    },
+    {
+        "skill": "Canva",
+        "src": "/icons/canva.svg"
+    },
+    {
+        "skill": "WordPress",
+        "src": "/icons/wordpress.svg"
     }
 ]

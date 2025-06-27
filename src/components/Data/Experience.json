@@ -1,26 +1,26 @@
 [
     {
-        "title": "Lead Software Engineer at Google",
-        "description": "As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.",
-        "company": "Google",
-        "companyLogo": "/logos/google.svg",
-        "startDate": "Nov 2019",
+        "title": "Generative AI Trainer at Outlier",
+        "description": "Training and fine-tuning AI models for various applications, focusing on improving model performance and accuracy. Working with cutting-edge generative AI technologies to develop solutions for complex data problems and content generation tasks.",
+        "company": "Outlier",
+        "companyLogo": "/logos/outlier.svg",
+        "startDate": "2025",
         "endDate": "Present"
     },
     {
-        "title": "Software Engineer at Youtube",
-        "description": "At Youtube, I served as a Software Engineer, focusing on the design and implementation of backend systems for the social media giant's dynamic platform. Working on projects that involved large-scale data processing and user engagement features, I leveraged my expertise to ensure seamless functionality and scalability.",
-        "company": "Youtube",
-        "companyLogo": "/logos/youtube.svg",
-        "startDate": "Jan 2017",
-        "endDate": "Oct 2019"
+        "title": "Data Analyst at Arel's Cake and Pastries",
+        "description": "Developed comprehensive Power BI dashboards for sales analytics and business intelligence. Analyzed customer data, sales trends, and inventory management to provide actionable insights for business growth and operational efficiency.",
+        "company": "Arel's Cake and Pastries",
+        "companyLogo": "/logos/arels.svg",
+        "startDate": "2025",
+        "endDate": "Present"
     },
     {
-        "title": "Junior Software Engineer at Apple",
-        "description": "During my tenure at Apple, I held the role of Software Architect, where I played a key role in shaping the architecture of mission-critical software projects. Responsible for designing scalable and efficient systems, I provided technical leadership to a cross-functional team.",
-        "company": "Apple",
-        "companyLogo": "/logos/apple.svg",
-        "startDate": "Jan 2016",
-        "endDate": "Dec 2017"
+        "title": "AI Specialist / Data Analyst at Kaizenaire",
+        "description": "Built and integrated AI chatbots using Taskade and web embedding technologies. Specialized in prompt engineering, content optimization, and developing AI-powered solutions for enhanced user engagement and automated customer support.",
+        "company": "Kaizenaire",
+        "companyLogo": "/logos/kaizenaire.svg",
+        "startDate": "2024",
+        "endDate": "2025"
     }
 ]

@@ -1,0 +1,130 @@
+<section class="py-16 bg-zinc-100" id="social-media">
+    <div class="max-w-screen-xl mx-auto px-4 sm:px-6 md:px-20">
+        <div class="text-center mb-16">
+            <h2 class="text-black text-4xl font-normal sm:text-4xl md:text-5xl">
+                Graphic Design & <span class="font-extrabold">Social Media</span>
+            </h2>
+            <p class="mt-4 text-zinc-600 text-lg">Creative content and marketing materials across platforms</p>
+            
+            <!-- Social Media Links -->
+            <div class="flex justify-center gap-6 mt-8">
+                <a href="https://www.facebook.com/kenneth.iino" target="_blank" class="flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-md font-semibold hover:bg-blue-700 transition-colors">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20 10C20 4.47715 15.5229 0 10 0C4.47715 0 0 4.47715 0 10C0 14.9912 3.65684 19.1283 8.4375 19.8785V12.8906H5.89844V10H8.4375V7.79688C8.4375 5.29063 9.93047 3.90625 12.2146 3.90625C13.3084 3.90625 14.4531 4.10156 14.4531 4.10156V6.5625H13.1922C11.95 6.5625 11.5625 7.3334 11.5625 8.125V10H14.3359L13.8926 12.8906H11.5625V19.8785C16.3432 19.1283 20 14.9912 20 10Z" fill="white"/>
+                    </svg>
+                    Facebook
+                </a>
+                <a href="https://www.linkedin.com/in/kenneth-iino" target="_blank" class="flex items-center gap-2 bg-blue-800 text-white px-6 py-3 rounded-md font-semibold hover:bg-blue-900 transition-colors">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18.5195 0H1.47656C0.660156 0 0 0.644531 0 1.44141V18.5547C0 19.3516 0.660156 20 1.47656 20H18.5195C19.3359 20 20 19.3516 20 18.5586V1.44141C20 0.644531 19.3359 0 18.5195 0ZM5.93359 17.043H2.96484V7.49609H5.93359V17.043ZM4.44922 6.19531C3.49609 6.19531 2.72656 5.42578 2.72656 4.47656C2.72656 3.52734 3.49609 2.75781 4.44922 2.75781C5.39844 2.75781 6.16797 3.52734 6.16797 4.47656C6.16797 5.42188 5.39844 6.19531 4.44922 6.19531ZM17.043 17.043H14.0781V12.4023C14.0781 11.2969 14.0586 9.87109 12.5352 9.87109C10.9922 9.87109 10.7578 11.0781 10.7578 12.3242V17.043H7.79297V7.49609H10.6406V8.80078H10.6797C11.0742 8.05078 12.043 7.25781 13.4844 7.25781C16.4883 7.25781 17.043 9.23438 17.043 11.8047V17.043Z" fill="white"/>
+                    </svg>
+                    LinkedIn
+                </a>
+            </div>
+        </div>
+
+        <!-- Filter Tags -->
+        <div class="flex flex-wrap justify-center gap-3 mb-12">
+            <button class="filter-btn active px-4 py-2 bg-black text-white rounded-full font-medium hover:bg-zinc-800 transition-colors" data-filter="all">All</button>
+            <button class="filter-btn px-4 py-2 bg-zinc-200 text-black rounded-full font-medium hover:bg-zinc-300 transition-colors" data-filter="instagram">Instagram</button>
+            <button class="filter-btn px-4 py-2 bg-zinc-200 text-black rounded-full font-medium hover:bg-zinc-300 transition-colors" data-filter="facebook">Facebook</button>
+            <button class="filter-btn px-4 py-2 bg-zinc-200 text-black rounded-full font-medium hover:bg-zinc-300 transition-colors" data-filter="linkedin">LinkedIn</button>
+            <button class="filter-btn px-4 py-2 bg-zinc-200 text-black rounded-full font-medium hover:bg-zinc-300 transition-colors" data-filter="canva">Canva</button>
+            <button class="filter-btn px-4 py-2 bg-zinc-200 text-black rounded-full font-medium hover:bg-zinc-300 transition-colors" data-filter="reels">Reels</button>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="gallery">
+            <!-- Instagram Posts -->
+            <div class="gallery-item bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow cursor-pointer" data-category="instagram">
+                <img src="/social-media/instagram-1.jpg" alt="AI Use Cases Instagram Carousel" class="w-full h-64 object-cover"/>
+                <div class="p-4">
+                    <h3 class="font-semibold text-black mb-2">AI Use Cases Carousel</h3>
+                    <p class="text-zinc-600 text-sm">Instagram carousel showcasing practical AI applications in business</p>
+                    <span class="inline-block mt-2 px-2 py-1 bg-pink-100 text-pink-800 text-xs rounded-full">Instagram</span>
+                </div>
+            </div>
+
+            <!-- Facebook Posts -->
+            <div class="gallery-item bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow cursor-pointer" data-category="facebook">
+                <img src="/social-media/facebook-1.jpg" alt="Data Analytics Tips" class="w-full h-64 object-cover"/>
+                <div class="p-4">
+                    <h3 class="font-semibold text-black mb-2">Data Analytics Tips</h3>
+                    <p class="text-zinc-600 text-sm">Educational post about data visualization best practices</p>
+                    <span class="inline-block mt-2 px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">Facebook</span>
+                </div>
+            </div>
+
+            <!-- LinkedIn Posts -->
+            <div class="gallery-item bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow cursor-pointer" data-category="linkedin">
+                <img src="/social-media/linkedin-1.jpg" alt="Tech Industry Insights" class="w-full h-64 object-cover"/>
+                <div class="p-4">
+                    <h3 class="font-semibold text-black mb-2">Tech Industry Insights</h3>
+                    <p class="text-zinc-600 text-sm">Professional article about emerging technologies in data science</p>
+                    <span class="inline-block mt-2 px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">LinkedIn</span>
+                </div>
+            </div>
+
+            <!-- Canva Designs -->
+            <div class="gallery-item bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow cursor-pointer" data-category="canva">
+                <img src="/social-media/canva-1.jpg" alt="Infographic Design" class="w-full h-64 object-cover"/>
+                <div class="p-4">
+                    <h3 class="font-semibold text-black mb-2">Data Science Infographic</h3>
+                    <p class="text-zinc-600 text-sm">Educational infographic about machine learning concepts</p>
+                    <span class="inline-block mt-2 px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded-full">Canva</span>
+                </div>
+            </div>
+
+            <!-- Reels -->
+            <div class="gallery-item bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow cursor-pointer" data-category="reels">
+                <img src="/social-media/reel-1.jpg" alt="Quick Tech Tips" class="w-full h-64 object-cover"/>
+                <div class="p-4">
+                    <h3 class="font-semibold text-black mb-2">Quick Tech Tips</h3>
+                    <p class="text-zinc-600 text-sm">Short-form video content about productivity tools</p>
+                    <span class="inline-block mt-2 px-2 py-1 bg-red-100 text-red-800 text-xs rounded-full">Reels</span>
+                </div>
+            </div>
+
+            <!-- More items can be added here -->
+            <div class="gallery-item bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow cursor-pointer" data-category="instagram">
+                <img src="/social-media/instagram-2.jpg" alt="Programming Tips" class="w-full h-64 object-cover"/>
+                <div class="p-4">
+                    <h3 class="font-semibold text-black mb-2">Programming Best Practices</h3>
+                    <p class="text-zinc-600 text-sm">Educational content about clean code principles</p>
+                    <span class="inline-block mt-2 px-2 py-1 bg-pink-100 text-pink-800 text-xs rounded-full">Instagram</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const galleryItems = document.querySelectorAll('.gallery-item');
+
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            // Remove active class from all buttons
+            filterBtns.forEach(b => {
+                b.classList.remove('active', 'bg-black', 'text-white');
+                b.classList.add('bg-zinc-200', 'text-black');
+            });
+            
+            // Add active class to clicked button
+            this.classList.add('active', 'bg-black', 'text-white');
+            this.classList.remove('bg-zinc-200', 'text-black');
+            
+            const filter = this.getAttribute('data-filter');
+            
+            galleryItems.forEach(item => {
+                if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        });
+    });
+});
+</script>

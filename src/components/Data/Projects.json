@@ -1,23 +1,26 @@
 [
     {
         "id": 1,
-        "name": "Crypto Screener Application",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.",
-        "link": "",
-        "image": "/image-771@2x.png"
+        "name": "Bakery Power BI Dashboard",
+        "description": "Comprehensive sales analytics dashboard for Arel's Cake and Pastries featuring real-time sales tracking, customer insights, and inventory management. Built with Power BI to provide actionable business intelligence for decision-making.",
+        "link": "#",
+        "image": "/projects/powerbi-dashboard.png",
+        "tags": ["Power BI", "Data Analytics", "Business Intelligence"]
     },
     {
         "id": 2,
-        "name": "Crypto Screener Application",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.",
-        "link": "",
-        "image": "/image-771@2x.png"
+        "name": "AI Chatbot Integration",
+        "description": "Developed and embedded intelligent chatbots for Kaizenaire using Taskade and advanced web embedding techniques. Features natural language processing and automated customer support capabilities.",
+        "link": "#",
+        "image": "/projects/ai-chatbot.png",
+        "tags": ["AI", "Chatbot", "Taskade", "Web Integration"]
     },
     {
         "id": 3,
-        "name": "Crypto Screener Application",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.",
-        "link": "",
-        "image": "/image-771@2x.png"
+        "name": "SEO Blog Optimization Platform",
+        "description": "WordPress-based content management system with AI-assisted SEO optimization tools. Includes automated content analysis, keyword optimization, and performance tracking for improved search rankings.",
+        "link": "#",
+        "image": "/projects/seo-platform.png",
+        "tags": ["WordPress", "SEO", "AI", "Content Marketing"]
     }
 ]
