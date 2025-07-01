@@ -45,7 +45,7 @@ import projectData from './Data/Projects.json';
                             alt={project.name}
                             class={`w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute ${index % 2 === 1 ? 'lg:right-0' : 'lg:left-0'} lg:h-full lg:w-auto lg:max-w-none`}
                             style="color:transparent" 
-                            src={project.image}
+                            src={`https://images.pexels.com/photos/${project.id === 1 ? '590022' : project.id === 2 ? '8386440' : '270348'}/pexels-photo-${project.id === 1 ? '590022' : project.id === 2 ? '8386440' : '270348'}.jpeg?auto=compress&cs=tinysrgb&w=800`}
                         />
                     </div>
                 </div>
