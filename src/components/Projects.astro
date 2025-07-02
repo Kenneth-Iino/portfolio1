@@ -14,9 +14,18 @@ import projectData from './Data/Projects.json';
         <!-- Grid Pattern -->
         <div class="absolute inset-0 opacity-5">
             <div class="grid grid-cols-12 gap-4 h-full">
-                {Array.from({length: 12}).map(() => (
-                    <div class="border-r border-white/10 h-full"></div>
-                ))}
+                <div class="border-r border-white/10 h-full"></div>
+                <div class="border-r border-white/10 h-full"></div>
+                <div class="border-r border-white/10 h-full"></div>
+                <div class="border-r border-white/10 h-full"></div>
+                <div class="border-r border-white/10 h-full"></div>
+                <div class="border-r border-white/10 h-full"></div>
+                <div class="border-r border-white/10 h-full"></div>
+                <div class="border-r border-white/10 h-full"></div>
+                <div class="border-r border-white/10 h-full"></div>
+                <div class="border-r border-white/10 h-full"></div>
+                <div class="border-r border-white/10 h-full"></div>
+                <div class="border-r border-white/10 h-full"></div>
             </div>
         </div>
         
@@ -34,11 +43,10 @@ import projectData from './Data/Projects.json';
         
         <!-- Floating Code Elements -->
         <div class="absolute top-32 left-1/4 text-white/5 font-mono text-sm transform rotate-12 animate-pulse">
-            <div>&lt;div class="project"&gt;&lt;/div&gt;</div>
-            <div>&nbsp;&nbsp;{`{data.map(item =>`}</div>
-            <div>&nbsp;&nbsp;&nbsp;&nbsp;&lt;Component /&gt;</div>
-            <div>&nbsp;&nbsp;)}</div>
-            <div></div>
+            <div>const project = {</div>
+            <div>&nbsp;&nbsp;name: "Dashboard",</div>
+            <div>&nbsp;&nbsp;type: "Analytics"</div>
+            <div>};</div>
         </div>
         
         <div class="absolute bottom-32 right-1/4 text-white/5 font-mono text-sm transform -rotate-12 animate-pulse">
