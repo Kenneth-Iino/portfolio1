@@ -28,6 +28,6 @@ export default {
 			'Sora': ['Sora']
 		  }
 		}
-	  },
+	},
 	plugins: [],
 }
