@@ -1,0 +1,407 @@
+---
+// Website Screenshot Carousel Component
+---
+
+<section class="py-16 bg-white" id="website-carousel">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">
+                Website <span class="text-zinc-600">Showcase</span>
+            </h2>
+            <p class="text-lg text-zinc-600 max-w-2xl mx-auto">
+                Explore full-screen captures of our latest web development projects
+            </p>
+        </div>
+
+        <!-- Main Carousel Container -->
+        <div class="relative bg-white rounded-2xl shadow-2xl border border-zinc-200 overflow-hidden">
+            <!-- Browser Frame -->
+            <div class="bg-zinc-100 px-6 py-4 border-b border-zinc-200">
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-3">
+                        <div class="flex gap-2">
+                            <div class="w-3 h-3 bg-red-500 rounded-full"></div>
+                            <div class="w-3 h-3 bg-yellow-500 rounded-full"></div>
+                            <div class="w-3 h-3 bg-green-500 rounded-full"></div>
+                        </div>
+                        <div class="flex-1 mx-4">
+                            <div class="bg-white rounded-lg px-4 py-2 text-sm text-zinc-600 border border-zinc-300 max-w-md">
+                                <span id="current-url">https://example-project.com</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <button class="carousel-prev-btn p-2 hover:bg-zinc-200 rounded-lg transition-colors" aria-label="Previous screenshot">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.5 15L7.5 10L12.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <button class="carousel-next-btn p-2 hover:bg-zinc-200 rounded-lg transition-colors" aria-label="Next screenshot">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.5 5L12.5 10L7.5 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carousel Track -->
+            <div class="carousel-container relative overflow-hidden bg-zinc-50">
+                <div class="carousel-track flex transition-transform duration-500 ease-in-out" style="transform: translateX(0%);">
+                    <!-- Slide 1 -->
+                    <div class="carousel-slide w-full flex-shrink-0 relative">
+                        <img 
+                            src="/projects/original-1499e82e79f57ecdc9a9d5356a73c3ed.webp"
+                            alt="Professional website dashboard interface showing data analytics and user management features"
+                            class="w-full h-[400px] md:h-[500px] lg:h-[600px] object-cover object-top"
+                            loading="lazy"
+                            data-url="https://dashboard-analytics.com"
+                        />
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
+                            <h3 class="text-white font-semibold text-xl mb-2">Analytics Dashboard</h3>
+                            <p class="text-zinc-200 text-sm">Comprehensive data visualization and business intelligence platform</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-slide w-full flex-shrink-0 relative">
+                        <img 
+                            src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900"
+                            alt="E-commerce website homepage with modern design and product showcase"
+                            class="w-full h-[400px] md:h-[500px] lg:h-[600px] object-cover object-top"
+                            loading="lazy"
+                            data-url="https://ecommerce-store.com"
+                        />
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
+                            <h3 class="text-white font-semibold text-xl mb-2">E-Commerce Platform</h3>
+                            <p class="text-zinc-200 text-sm">Modern online store with seamless shopping experience and payment integration</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="carousel-slide w-full flex-shrink-0 relative">
+                        <img 
+                            src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900"
+                            alt="Corporate website landing page with professional layout and call-to-action sections"
+                            class="w-full h-[400px] md:h-[500px] lg:h-[600px] object-cover object-top"
+                            loading="lazy"
+                            data-url="https://corporate-site.com"
+                        />
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
+                            <h3 class="text-white font-semibold text-xl mb-2">Corporate Website</h3>
+                            <p class="text-zinc-200 text-sm">Professional business website with modern design and optimized performance</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 4 -->
+                    <div class="carousel-slide w-full flex-shrink-0 relative">
+                        <img 
+                            src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900"
+                            alt="Portfolio website showcasing creative work with responsive grid layout"
+                            class="w-full h-[400px] md:h-[500px] lg:h-[600px] object-cover object-top"
+                            loading="lazy"
+                            data-url="https://creative-portfolio.com"
+                        />
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
+                            <h3 class="text-white font-semibold text-xl mb-2">Creative Portfolio</h3>
+                            <p class="text-zinc-200 text-sm">Stunning portfolio website highlighting creative projects and achievements</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 5 -->
+                    <div class="carousel-slide w-full flex-shrink-0 relative">
+                        <img 
+                            src="https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900"
+                            alt="SaaS application interface with clean design and intuitive user experience"
+                            class="w-full h-[400px] md:h-[500px] lg:h-[600px] object-cover object-top"
+                            loading="lazy"
+                            data-url="https://saas-platform.com"
+                        />
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
+                            <h3 class="text-white font-semibold text-xl mb-2">SaaS Platform</h3>
+                            <p class="text-zinc-200 text-sm">Cloud-based software solution with advanced features and scalable architecture</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Loading Indicator -->
+                <div class="loading-indicator absolute inset-0 bg-zinc-100 flex items-center justify-center hidden">
+                    <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-black"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pagination Dots -->
+        <div class="flex justify-center mt-8 gap-3">
+            <button class="pagination-dot w-3 h-3 rounded-full bg-black transition-all duration-300" data-slide="0" aria-label="Go to slide 1"></button>
+            <button class="pagination-dot w-3 h-3 rounded-full bg-zinc-300 hover:bg-zinc-400 transition-all duration-300" data-slide="1" aria-label="Go to slide 2"></button>
+            <button class="pagination-dot w-3 h-3 rounded-full bg-zinc-300 hover:bg-zinc-400 transition-all duration-300" data-slide="2" aria-label="Go to slide 3"></button>
+            <button class="pagination-dot w-3 h-3 rounded-full bg-zinc-300 hover:bg-zinc-400 transition-all duration-300" data-slide="3" aria-label="Go to slide 4"></button>
+            <button class="pagination-dot w-3 h-3 rounded-full bg-zinc-300 hover:bg-zinc-400 transition-all duration-300" data-slide="4" aria-label="Go to slide 5"></button>
+        </div>
+
+        <!-- Slide Counter -->
+        <div class="text-center mt-4">
+            <span class="text-sm text-zinc-600">
+                <span id="current-slide">1</span> / <span id="total-slides">5</span>
+            </span>
+        </div>
+    </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const track = document.querySelector('.carousel-track');
+    const slides = document.querySelectorAll('.carousel-slide');
+    const nextBtn = document.querySelector('.carousel-next-btn');
+    const prevBtn = document.querySelector('.carousel-prev-btn');
+    const dots = document.querySelectorAll('.pagination-dot');
+    const currentSlideSpan = document.getElementById('current-slide');
+    const totalSlidesSpan = document.getElementById('total-slides');
+    const currentUrlSpan = document.getElementById('current-url');
+    const loadingIndicator = document.querySelector('.loading-indicator');
+    
+    let currentSlide = 0;
+    const totalSlides = slides.length;
+    let isAnimating = false;
+    let autoPlayInterval;
+    
+    // URLs for each slide
+    const slideUrls = [
+        'https://dashboard-analytics.com',
+        'https://ecommerce-store.com',
+        'https://corporate-site.com',
+        'https://creative-portfolio.com',
+        'https://saas-platform.com'
+    ];
+    
+    // Initialize
+    totalSlidesSpan.textContent = totalSlides;
+    
+    // Update carousel position and UI
+    function updateCarousel(animate = true) {
+        if (isAnimating && animate) return;
+        
+        if (animate) {
+            isAnimating = true;
+            showLoading();
+            
+            setTimeout(() => {
+                hideLoading();
+                isAnimating = false;
+            }, 500);
+        }
+        
+        // Move track
+        const translateX = -currentSlide * 100;
+        track.style.transform = `translateX(${translateX}%)`;
+        
+        // Update pagination dots
+        dots.forEach((dot, index) => {
+            if (index === currentSlide) {
+                dot.classList.remove('bg-zinc-300');
+                dot.classList.add('bg-black');
+            } else {
+                dot.classList.remove('bg-black');
+                dot.classList.add('bg-zinc-300');
+            }
+        });
+        
+        // Update slide counter and URL
+        currentSlideSpan.textContent = currentSlide + 1;
+        currentUrlSpan.textContent = slideUrls[currentSlide];
+        
+        // Lazy load images
+        lazyLoadImage(currentSlide);
+        if (currentSlide + 1 < totalSlides) lazyLoadImage(currentSlide + 1);
+        if (currentSlide - 1 >= 0) lazyLoadImage(currentSlide - 1);
+    }
+    
+    // Show loading indicator
+    function showLoading() {
+        loadingIndicator.classList.remove('hidden');
+    }
+    
+    // Hide loading indicator
+    function hideLoading() {
+        loadingIndicator.classList.add('hidden');
+    }
+    
+    // Lazy load images
+    function lazyLoadImage(slideIndex) {
+        const slide = slides[slideIndex];
+        const img = slide.querySelector('img');
+        if (img && img.dataset.src && !img.src.includes(img.dataset.src)) {
+            img.src = img.dataset.src;
+        }
+    }
+    
+    // Next slide
+    function nextSlide() {
+        if (isAnimating) return;
+        currentSlide = (currentSlide + 1) % totalSlides;
+        updateCarousel();
+    }
+    
+    // Previous slide
+    function prevSlide() {
+        if (isAnimating) return;
+        currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+        updateCarousel();
+    }
+    
+    // Go to specific slide
+    function goToSlide(slideIndex) {
+        if (isAnimating || slideIndex === currentSlide) return;
+        currentSlide = slideIndex;
+        updateCarousel();
+    }
+    
+    // Event listeners
+    nextBtn.addEventListener('click', nextSlide);
+    prevBtn.addEventListener('click', prevSlide);
+    
+    // Pagination dots
+    dots.forEach((dot, index) => {
+        dot.addEventListener('click', () => goToSlide(index));
+    });
+    
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowLeft') {
+            prevSlide();
+        } else if (e.key === 'ArrowRight') {
+            nextSlide();
+        }
+    });
+    
+    // Touch/swipe support
+    let startX = 0;
+    let endX = 0;
+    const carousel = document.querySelector('.carousel-container');
+    
+    carousel.addEventListener('touchstart', (e) => {
+        startX = e.touches[0].clientX;
+    }, { passive: true });
+    
+    carousel.addEventListener('touchmove', (e) => {
+        endX = e.touches[0].clientX;
+    }, { passive: true });
+    
+    carousel.addEventListener('touchend', () => {
+        const threshold = 50;
+        const diff = startX - endX;
+        
+        if (Math.abs(diff) > threshold) {
+            if (diff > 0) {
+                nextSlide(); // Swipe left - next slide
+            } else {
+                prevSlide(); // Swipe right - previous slide
+            }
+        }
+    }, { passive: true });
+    
+    // Auto-play functionality
+    function startAutoPlay() {
+        autoPlayInterval = setInterval(nextSlide, 5000);
+    }
+    
+    function stopAutoPlay() {
+        clearInterval(autoPlayInterval);
+    }
+    
+    // Pause auto-play on hover
+    carousel.addEventListener('mouseenter', stopAutoPlay);
+    carousel.addEventListener('mouseleave', startAutoPlay);
+    
+    // Pause auto-play when page is not visible
+    document.addEventListener('visibilitychange', () => {
+        if (document.hidden) {
+            stopAutoPlay();
+        } else {
+            startAutoPlay();
+        }
+    });
+    
+    // Initialize carousel
+    updateCarousel(false);
+    startAutoPlay();
+    
+    // Intersection Observer for performance
+    const observerOptions = {
+        root: null,
+        rootMargin: '50px',
+        threshold: 0.1
+    };
+    
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const img = entry.target;
+                if (img.dataset.src) {
+                    img.src = img.dataset.src;
+                    img.removeAttribute('data-src');
+                    observer.unobserve(img);
+                }
+            }
+        });
+    }, observerOptions);
+    
+    // Observe all images for lazy loading
+    slides.forEach(slide => {
+        const img = slide.querySelector('img[data-src]');
+        if (img) {
+            observer.observe(img);
+        }
+    });
+});
+</script>
+
+<style>
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .carousel-slide img {
+        height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .carousel-slide img {
+        height: 250px;
+    }
+}
+
+/* Smooth transitions */
+.carousel-track {
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Loading animation */
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.animate-spin {
+    animation: spin 1s linear infinite;
+}
+
+/* Focus styles for accessibility */
+.carousel-prev-btn:focus,
+.carousel-next-btn:focus,
+.pagination-dot:focus {
+    outline: 2px solid #3b82f6;
+    outline-offset: 2px;
+}
+
+/* Hover effects */
+.pagination-dot:hover {
+    transform: scale(1.2);
+}
+
+.carousel-prev-btn:hover,
+.carousel-next-btn:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+</style>
